@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: MathUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 1, Skipped: 2, Time elapsed: 0.243 s <<< FAILURE! - in MathUtilsTest
+testDivide  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at MathUtilsTest.testDivide(MathUtilsTest.java:74)
+
+testMultiply  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at MathUtilsTest.testMultiply(MathUtilsTest.java:69)
+
+testAddNegative  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	Lambda expressions are allowed only at source level 1.8 or above
+
+	at MathUtilsTest$AddTest.testAddNegative(MathUtilsTest.java:90)
+
